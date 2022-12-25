@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/articles/</loc>
+    <loc>https://masamionakada.github.io/personal_website/articles/</loc>
   </url><url>
-    <loc>localhost/categories/</loc>
+    <loc>https://masamionakada.github.io/personal_website/categories/</loc>
   </url><url>
-    <loc>localhost/projects/</loc>
+    <loc>https://masamionakada.github.io/personal_website/projects/</loc>
   </url><url>
-    <loc>localhost/contact/</loc>
+    <loc>https://masamionakada.github.io/personal_website/contact/</loc>
   </url><url>
-    <loc>localhost/projects/cpal_user_experience/</loc>
+    <loc>https://masamionakada.github.io/personal_website/projects/cpal_user_experience/</loc>
   </url><url>
-    <loc>localhost/</loc>
+    <loc>https://masamionakada.github.io/personal_website/</loc>
   </url><url>
-    <loc>localhost/articles/article/</loc>
+    <loc>https://masamionakada.github.io/personal_website/articles/article/</loc>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>https://masamionakada.github.io/personal_website/tags/</loc>
   </url>
 </urlset>
