@@ -3,13 +3,15 @@
     <div class="profile_inner">
         {{- if .imageUrl -}}
         <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+            height="{{ .imageHeight | default 250 }}" width="{{ .imageWidth | default 250 }}" />
         {{- end }}
-        <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
+        <h2>{{ .title | default $.Site.Title | markdownify }}</h2>
+        <p>{{ .description | default $.Site.Title | markdownify }}</p>
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
+
         <div class="buttons">
             {{- range . }}
             <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">

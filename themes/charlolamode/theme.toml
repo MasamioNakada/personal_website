@@ -40,3 +40,6 @@ features = [
   author = "nanxiaobei"
   homepage = "https://github.com/nanxiaobei"
   repo = "https://github.com/nanxiaobei/hugo-paper/"
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

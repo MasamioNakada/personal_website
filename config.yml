@@ -1,5 +1,5 @@
-baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: charlola.mode
+baseURL: localhost # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: masamionakada
 paginate: 5
 theme: charlolamode
 
@@ -7,22 +7,22 @@ theme: charlolamode
 
 menu:
     main:
-        - name: Contact
-          url: contact/
+        - name: Projects
+          url: projects/
           weight: 30
         - name: Articles
           url: articles/
           weight: 20
-        # - name: Categories
-        #   url: categories/
-        #   weight: 10
+        - name: Contact
+          url: contact/
+          weight: 10
         # - name: new Tab
         #   url: mewtab/
         #   weight: defines order of tabs
 
 
 params:
-    author: Author's Name
+    author: Masami Nakada
 
 
     defaultTheme: auto
@@ -36,24 +36,29 @@ params:
 
     profileMode:
         enabled: true
-        title: Joe Doe
-        imageUrl: "/images/profile.png"
+        title: Hello, I’m Masami Nakada 👋
+        description: Backend Developer at [DigitaliaTec](https://digitaliatec.com) / Data Science at [Cohete](https://www.cohete.com.ar), also a Python Teacher in my free hours at [HackSpace Perú](https://hackspace.pe).
+        imageUrl: "/images/profile.jpg"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Don't click me
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+            - name: Contact Me
+              url: https://api.whatsapp.com/send/?phone=51952841852&text=Hola+Masami+me+gustaría+conocer+más+sobre+tus+trabajos&type=phone_number&app_absent=0
     mainSections:
       - articles
 
     socialIcons:
-        - name: buymeacoffee
-          url: "https://ko-fi.com/heycharlola"
-        - name: github
-          url: "https://github.com/charlola"
         - name: linkedin
-          url: "https://www.linkedin.com/in/heycharlola/"
+          url: "https://www.linkedin.com/in/masamionakada"
+        - name: email
+          url: "nakada2130@gmail.com"
+        - name: github
+          url: "https://github.com/MasamioNakada"
+        - name: instagram
+          url: "https://www.instagram.com/masamionakada"
+
+
 
       # add more social icons. find more in svg.html file
       # - name: youtube
@@ -81,4 +86,9 @@ pygmentsUseClasses: true
 
 minify:
     disableXML: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
